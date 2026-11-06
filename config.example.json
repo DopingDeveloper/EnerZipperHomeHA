@@ -1,0 +1,18 @@
+{
+  "adb": "adb",
+  "serial": "emulator-5556",
+  "device_label": "EnerZipperHome",
+  "poll_interval": 30,
+  "max_age": 180,
+  "instance_id": "home_meter",
+  "topic_prefix": "enerzipper",
+  "discovery_prefix": "homeassistant",
+  "mqtt": {
+    "host": "mqtt.example.internal",
+    "port": 1883,
+    "username_env": "ENERZIPPER_MQTT_USERNAME",
+    "password_env": "ENERZIPPER_MQTT_PASSWORD",
+    "tls": false,
+    "ca_file": null
+  }
+}
